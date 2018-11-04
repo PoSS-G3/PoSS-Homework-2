@@ -31,7 +31,7 @@
 	我们隐藏的是后缀名为 *reyvateil* 的文件
 	
 	首先，在 */Desktop/newworld* 目录下创建一个新的文件 *1.reyvateil*
-![](http://aa)
+![](/screenshot/rootkit58-1.png)
  
 	查看后缀名为 *reyvateil* 的文件，返回结果为 *1.reyvateil*；
 
