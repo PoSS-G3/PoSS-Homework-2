@@ -194,7 +194,7 @@ hook kill调用函数，并在新的函数中添加自定义的信号，以实�
 	    make_ro((long unsigned int)sys_call_table_);
 	#endif
 	```
-	![9d2920692ac99ba749f13a8b28d3c23b.png](/Users/challenge/Desktop/hook.png)
+	![syscallhook.png](https://github.com/PoSS-G3/PoSS-Homework-2/blob/master/screenshot/hook.png)
 	
 3. 自定义的new_sys_kill函数的实现。
 	
