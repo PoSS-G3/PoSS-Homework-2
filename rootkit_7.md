@@ -1,4 +1,4 @@
-## **功能7 监视网络发送**### packet记录模块rootkit通过设置钩子，钩住进程所调用的某些函数，对函数中的数据进行监视，并保存一些感兴趣的内容，比如http请求或者密码内容，将它们保存在指定的目录下。### 步骤：
+## **监控网络数据包传输**### packet记录模块rootkit通过设置钩子，钩住进程所调用的某些函数，对函数中的数据进行监视，并保存一些感兴趣的内容，比如http请求或者密码内容，将它们保存在指定的目录下。### 步骤：
 监视网络发送 hook send系统调用
 hook send函数
 ` long new_sys_sendto(int fd, void __user *buff_user, size_t len,unsigned int flags, struct sockaddr __user *addr, int addr_len)`
